@@ -226,12 +226,4 @@ while True:
         
     else:
         print("\n❌ Invalid choice! Please select 1-7.\n")
-
-# sep = "\n\n" if os.path.exists("customer.txt") and os.path.getsize("customer.txt") > 0 else ""
-# with open("customer.txt", "a", encoding='utf-8') as file:
-#     file.write(sep)
-#     file.write(f"Account Created On: {get_time_12hr()}\n")
-#     file.write(f"Customer ID: {customerid}\nName: {name}\nMobile: {mobile}\nAccount Type: {'Saving' if choice==1 else 'Current'}\nBalance: {amt} Rs\n")
-#     file.write(f"Debit Card: {'Activated' if debitcard=='Y' else 'Not Activated'}\n")
-#     file.write(f"Pin: {pin}\n")
-#     file.write(f"Nominee: {nominee or 'Not Set'}\nAadhar: {aadhar or 'Not Set'}\nPan: {pan or 'Not Set'}\nAddress: {address or 'Not Set'}\n")
+
